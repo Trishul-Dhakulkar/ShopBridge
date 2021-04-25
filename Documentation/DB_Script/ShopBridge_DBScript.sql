@@ -5,7 +5,7 @@ IF NOT EXISTS(SELECT * FROM sys.databases WHERE name = 'ShopBridge')
     CREATE DATABASE [ShopBridge]
    END
 
--- Create KDLUserData Table
+-- Create Product Table
 USE ShopBridge 
 IF NOT EXISTS(SELECT 1 
 FROM INFORMATION_SCHEMA.TABLES 
