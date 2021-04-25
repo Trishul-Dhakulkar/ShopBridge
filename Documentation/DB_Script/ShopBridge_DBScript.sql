@@ -19,6 +19,11 @@ ID INT IDENTITY(1,1) PRIMARY KEY,
 Name VARCHAR(50),
 Discription VARCHAR(200),
 Price FLOAT,
+BatchNo VARCHAR(20),
+ManufactureDate Date,
+ExpiryDate Date,
+NetWt FLOAT,
+WtUnit VARCHAR(10)
 )
 END
 
