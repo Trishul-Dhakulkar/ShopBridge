@@ -1,4 +1,4 @@
--- Create KDLDatabase
+-- Create ShopBridge Database
 IF NOT EXISTS(SELECT * FROM sys.databases WHERE name = 'ShopBridge')
   BEGIN
 	PRINT 'Creating ShopBridge Database';
